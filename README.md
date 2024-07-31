@@ -23,8 +23,8 @@
   <nav>
        <!-- Nawigacja/menu strony - zazwyczaj wewnątrz znajduję się nawigacja -->
        <ul>
-          <li></li>
-          <li></li>
+          <li>...</li>
+          <li>...</li>
        </ul>
   </nav>
 ```
@@ -43,12 +43,21 @@
 ## ➡️ `<article>` - Artykuł
 ```bash
   <nav>
-      <!-- Artykuł - zazwyczaj autonomiczny fragment strony - inaczaj mówiąć, możemy wziąć ten   element i wrzucić go na inna strone, będą to elementy typu post na bogu -->
+      <!-- Artykuł - zazwyczaj autonomiczny fragment strony - inaczaj mówiąć, możemy wziąć ten   element i wrzucić go na inna strone, będą to elementy typu post na bogu. Bardzo ważny dla przeglądarek -->
       <article>
         <p>
-          ....
+          ...
         </p>
       </article>
   </nav>
 ```
-
+## ➡️ `<aside>` - Boczne menu
+```bash
+  <nav>
+       <!-- Boczne menu - treść mało powiązana z głowną zawartościa storny , reklamy , opcje itd-->
+       <ul>
+          <li><a href="#">...</a></li>
+          <li><a href="#">...</a></li>
+       </ul>
+  </nav>
+```
