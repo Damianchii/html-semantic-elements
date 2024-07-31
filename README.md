@@ -11,6 +11,20 @@
 ## ➡️ `<header>` - nagłówek
 ```bash
   <header>
-        Nagłowek storony - zazwyczaj wewnątrz znajduję się nawigacja
+        <!-- Nagłówek strony - zazwyczaj wewnątrz znajduję się nawigacja -->
+        <nav>
+          ...
+        </nav>
   </header>
+```
+
+## ➡️ `<nav>` - navigacja/menu
+```bash
+  <nav>
+       <!-- Nawigacja/menu strony - zazwyczaj wewnątrz znajduję się nawigacja -->
+       <ul>
+          <li></li>
+          <li></li>
+       </ul>
+  </nav>
 ```
