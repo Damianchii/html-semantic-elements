@@ -17,7 +17,6 @@
         </nav>
   </header>
 ```
-
 ## ➡️ `<nav>` - Navigacja/menu
 ```bash
   <nav>
@@ -39,7 +38,6 @@
         </main>
   </main>
 ```
-
 ## ➡️ `<article>` - Artykuł
 ```bash
   <nav>
@@ -54,10 +52,17 @@
 ## ➡️ `<aside>` - Boczne menu
 ```bash
   <nav>
-       <!-- Boczne menu - treść mało powiązana z głowną zawartościa storny , reklamy , opcje itd-->
+      <!-- Boczne menu - treść mało powiązana z głowną zawartościa storny , reklamy , opcje itd. Element ten zazwyczaj jest wielokrotnie powtarzany w każdej podstronie-->
        <ul>
           <li><a href="#">...</a></li>
           <li><a href="#">...</a></li>
        </ul>
+  </nav>
+```
+## ➡️ `<footer>` - Stopka
+```bash
+  <nav>
+      <!-- Stopka strony - Zazwyczaj wewnątrz znajduja sie dane firmy itd -->
+      &copy; expample@strona.wwww
   </nav>
 ```
