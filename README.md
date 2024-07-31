@@ -66,3 +66,13 @@
       &copy; expample@strona.wwww
   </nav>
 ```
+
+## ➡️ `<section>` - sekcja
+```bash
+      <!-- Sekcja - Grupuje tematyczne treść o określonym znaczeniu, często łączy sie z article np. zgrupuje sekcje komentarzy gdzie każdy komentarz to article -->
+      <section>
+        <article>...</article>
+        <article>...</article>
+        <article>...</article>
+      </section>
+```
