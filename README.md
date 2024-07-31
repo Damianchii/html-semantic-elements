@@ -8,7 +8,7 @@
 
 ### Semantyczne Elementy - sama nazwa znacznika zdradza co może znajdzować się wewnątrz tego znacznika
 
-## ➡️ `<header>` - nagłówek
+## ➡️ `<header>` - Nagłówek
 ```bash
   <header>
         <!-- Nagłówek strony - zazwyczaj wewnątrz znajduję się nawigacja -->
@@ -18,7 +18,7 @@
   </header>
 ```
 
-## ➡️ `<nav>` - navigacja/menu
+## ➡️ `<nav>` - Navigacja/menu
 ```bash
   <nav>
        <!-- Nawigacja/menu strony - zazwyczaj wewnątrz znajduję się nawigacja -->
@@ -28,3 +28,27 @@
        </ul>
   </nav>
 ```
+## ➡️ `<main>` - Główna treść witryny
+```bash
+  <main>
+        <!-- Główna część strony - zawartość głowna -->
+        <main>
+          <article>
+            ...
+          </article>
+        </main>
+  </main>
+```
+
+## ➡️ `<article>` - Artykuł
+```bash
+  <nav>
+      <!-- Artykuł - zazwyczaj autonomiczny fragment strony - inaczaj mówiąć, możemy wziąć ten   element i wrzucić go na inna strone, będą to elementy typu post na bogu -->
+      <article>
+        <p>
+          ....
+        </p>
+      </article>
+  </nav>
+```
+
