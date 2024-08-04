@@ -18,9 +18,9 @@
   </header>
 ```
 ## ➡️ `<nav>` - Navigacja/menu
+#### Nawigacja/menu strony - zazwyczaj wewnątrz znajduję się nawigacja
 ```bash
   <nav>
-       <!-- Nawigacja/menu strony - zazwyczaj wewnątrz znajduję się nawigacja -->
        <ul>
           <li>...</li>
           <li>...</li>
@@ -28,9 +28,9 @@
   </nav>
 ```
 ## ➡️ `<main>` - Główna treść witryny
+#### Główna część strony - zawartość głowna 
 ```bash
   <main>
-        <!-- Główna część strony - zawartość głowna -->
         <main>
           <article>
             ...
@@ -39,9 +39,9 @@
   </main>
 ```
 ## ➡️ `<article>` - Artykuł
+#### Artykuł - zazwyczaj autonomiczny fragment strony - inaczaj mówiąć, możemy wziąć ten   element i wrzucić go na inna strone, będą to elementy typu post na bogu. Bardzo ważny dla przeglądarek
 ```bash
   <nav>
-      <!-- Artykuł - zazwyczaj autonomiczny fragment strony - inaczaj mówiąć, możemy wziąć ten   element i wrzucić go na inna strone, będą to elementy typu post na bogu. Bardzo ważny dla przeglądarek -->
       <article>
         <p>
           ...
@@ -50,9 +50,9 @@
   </nav>
 ```
 ## ➡️ `<aside>` - Boczne menu
+#### Boczne menu - treść mało powiązana z głowną zawartościa storny , reklamy , opcje itd. Element ten zazwyczaj jest wielokrotnie powtarzany w każdej podstronie
 ```bash
   <nav>
-      <!-- Boczne menu - treść mało powiązana z głowną zawartościa storny , reklamy , opcje itd. Element ten zazwyczaj jest wielokrotnie powtarzany w każdej podstronie-->
        <ul>
           <li><a href="#">...</a></li>
           <li><a href="#">...</a></li>
@@ -60,16 +60,16 @@
   </nav>
 ```
 ## ➡️ `<footer>` - Stopka
+#### Stopka strony - Zazwyczaj wewnątrz znajduja sie dane firmy itd
 ```bash
   <nav>
-      <!-- Stopka strony - Zazwyczaj wewnątrz znajduja sie dane firmy itd -->
       &copy; expample@strona.wwww
   </nav>
 ```
 
 ## ➡️ `<section>` - sekcja
+#### Sekcja - Grupuje tematyczne treść o określonym znaczeniu, często łączy sie z article np. zgrupuje sekcje komentarzy gdzie każdy komentarz to article
 ```bash
-      <!-- Sekcja - Grupuje tematyczne treść o określonym znaczeniu, często łączy sie z article np. zgrupuje sekcje komentarzy gdzie każdy komentarz to article -->
       <section>
         <article>...</article>
         <article>...</article>
