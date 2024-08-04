@@ -9,7 +9,7 @@
 ### Semantyczne Elementy - sama nazwa znacznika zdradza co może znajdzować się wewnątrz tego znacznika
 
 ## ➡️ `<header>` - Nagłówek
-#### <strong style="color: green">Nagłówek strony</strong> - zazwyczaj wewnątrz znajduję się nawigacja 
+#### Nagłówek strony - zazwyczaj wewnątrz znajduję się nawigacja 
 ```bash
   <header>
         <nav>
