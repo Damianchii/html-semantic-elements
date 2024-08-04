@@ -41,30 +41,28 @@
 ## ➡️ `<article>` - Artykuł
 #### Artykuł - zazwyczaj autonomiczny fragment strony - inaczaj mówiąć, możemy wziąć ten   element i wrzucić go na inna strone, będą to elementy typu post na bogu. Bardzo ważny dla przeglądarek
 ```bash
-  <nav>
-      <article>
+   <article>
         <p>
           ...
         </p>
-      </article>
-  </nav>
+   </article>
 ```
 ## ➡️ `<aside>` - Boczne menu
 #### Boczne menu - treść mało powiązana z głowną zawartościa storny , reklamy , opcje itd. Element ten zazwyczaj jest wielokrotnie powtarzany w każdej podstronie
 ```bash
-  <nav>
+  <aside>
        <ul>
           <li><a href="#">...</a></li>
           <li><a href="#">...</a></li>
        </ul>
-  </nav>
+  </aside>
 ```
 ## ➡️ `<footer>` - Stopka
 #### Stopka strony - Zazwyczaj wewnątrz znajduja sie dane firmy itd
 ```bash
-  <nav>
+  <footer>
       &copy; expample@strona.wwww
-  </nav>
+  </footer>
 ```
 
 ## ➡️ `<section>` - sekcja
